@@ -1,0 +1,29 @@
+body {
+    background-image: url(nickelodeonLogo.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: 'Audiowide';
+}
+
+p {
+    border-style: solid;
+    font-size: 27px;
+}
+
+input {
+    font-size: 22px;
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
