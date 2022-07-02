@@ -17,6 +17,7 @@ h1 {
 p {
     border-style: solid;
     font-size: 27px;
+    padding: 25px 25px 25px 25px;
 }
 
 input {
