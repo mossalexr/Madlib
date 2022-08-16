@@ -14,8 +14,8 @@ h1 {
     font-family: 'Audiowide';
 }
 
-p {
-    border-style: solid;
+#answer {
+    /* border-style: solid; */
     font-size: 27px;
     padding: 25px 25px 25px 25px;
 }
@@ -27,4 +27,12 @@ input {
 
 input:focus::placeholder {
     color: transparent;
+}
+button {
+    background-color: lightgreen;
+    font-size: 18px;
+    color: green;
+}
+.underline {
+    border-bottom: 3px solid lightgreen;
 }
